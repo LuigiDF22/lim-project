@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainSec{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.container{
+    padding: 0px 215px;
+}
+
+.boxSec{
+    height: auto;
+    width: 100%;
+    padding: 30px 50px;
+    background-color: rgba(0, 0, 0, 0.596);
+    border-radius: 15px;
+}
+.boxSec h3{
+    color: #00DD00;
+    text-align: center;
+}
+.mainSec img{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+.greenSec{
+    background-color: #00DD00;
+    padding: 8px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.greenSec button{
+    width: auto;
+    padding: 1px 5px;
+    border: 1px;
+}
+
+.firstOne{
+    color: #fff;
+}
+.firstOne p{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+.firstColor{
+    height: 35px;
+    width: 30%;
+    background-color: #F5B453;
+    border-radius: 5px;
+}
+
+/* second one  */
+.secondOne{
+    color: #fff;
+    margin-top: 20px;
+}
+.secondOne p{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+.secondOne .firstColor{
+    height: 35px;
+    width: 60%;
+    background-color: #1EC31E;
+    border-radius: 5px;
+}
+
+/* third one  */
+.thirdOne{
+    color: #fff;
+    margin-top: 20px;
+}
+.thirdOne p{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+.thirdOne .firstColor{
+    height: 35px;
+    width: 20%;
+    background-color: #BE4141;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:1000px) {
+    .container{
+        padding: 0 30px;
+    }
+}
